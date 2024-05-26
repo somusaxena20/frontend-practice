@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Understanding units */
+
+/* .box{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+
+.inner{
+    height: 50vh;
+    width: 50vw;
+    background-color: royalblue;
+}
+
+.heading{
+    font-size: 5vmax;
+}
+
+.parent{
+    background-color: #dadada;
+    width: 40%;
+    font-size: 60px;
+}
+
+h1{
+    font-size: 1em; 
+}
+
+h2{
+    font-size: 1em; 
+}
+
+h3{
+    font-size: 1.5em; 
+} */
+
+
+/* layout of website */
+
+/* 
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    position: absolute;
+    left: 50%;
+} */
+
+/* flexbox */
+
+.parent{
+    height: 80%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  /*it will wrap the div */
+    /* flex-direction: column; */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.child{
+    height: 20vmax;
+    width: 20vmax;
+    background-color: crimson;
+    border: 2px solid black;
+    font-size: .8vmax;
+    margin: auto;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: crimson;
+}
+
+@media (max-width:600px){
+    .box{
+        background-color: royalblue;
+        border-radius: 50%;
+    }
+}
+
+

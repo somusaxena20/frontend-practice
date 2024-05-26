@@ -1,0 +1,26 @@
+----> Understanding units
+    - px  (depends on pixel of your screen & it is fixed)
+    - %
+    - vw, vh (vw => viewport width   vh => viewport height)
+    - em, rem
+    - vmax, vmin
+
+----> layout of website
+    - absolute vs flex
+
+----> flexbox
+    - display flex
+    - aliging items in x & y axis
+    - flex direction
+    - flex wrap
+
+
+
+**************************************
+some imp prop ==============>
+
+vmax -> view port max in certain point it stop considering using width so now it's cosiding based on height
+vmin -> viewport min 
+
+em -> it is depends on parent size 
+default value of 1 rem is 16px
